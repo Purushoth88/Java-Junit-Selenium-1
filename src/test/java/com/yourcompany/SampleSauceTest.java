@@ -123,7 +123,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         // windows 7, Chrome 41
         browsers.add(new String[]{"Windows 7", "41", "chrome", null, null});
 
-        // windows xp, IE 8
+     /*   // windows xp, IE 8
         browsers.add(new String[]{"Windows XP", "8", "internet explorer", null, null});
 
         // windows 7, IE 9
@@ -145,7 +145,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"OSX 10.10", "8", "safari", null, null});
 
         // Linux, Firefox 37
-        browsers.add(new String[]{"Linux", "37", "firefox", null, null});
+        browsers.add(new String[]{"Linux", "37", "firefox", null, null});*/
 
         return browsers;
     }
